@@ -1,44 +1,8 @@
-# library(shiny)
-# library(leaflet)
-# 
-# fluidPage(theme = shinytheme("cerulean"),
-#           navbarPage("Varanasi Analysis", id="main",
-#                      tabPanel("Dustbins near me", leafletOutput("bbmap", height=840)),
-#                      #tabPanel("Landmarks near me", leafletOutput("input_file", height=840)),
-#                      tabPanel("Locality Of Dustbins", DT::dataTableOutput("data")),
-#                      tabPanel("Guide",sidebarPanel(
-#                        tags$h1("Input:"),
-#                        h2("What type is your waste?"),
-#                        h3("Press 1/2"),
-#                        textInput("txt1", "\n1.Biodegradable \n2.Non Biodegradable", ""),
-#                      ), # sidebarPanel
-#                      mainPanel(
-#                        h1("Header 1"),
-#                        
-#                        h4("Output 1"),
-#                        verbatimTextOutput("txtout"),
-#                        
-#                      ) # mainPanel
-#                      ), # Navbar 1, tabPanel     
-#                      
-#            tabPanel("Histogram Comparisons", tabsetPanel(
-#              tabPanel("Dustbin Hostogram", plotOutput("plot")),
-#              tabPanel("Landmark Hostogram", plotOutput("plot")),
-#              tabPanel("Explanation")
-#            )),
-#            #tabPanel("Navbar 1", file("txtout")),
-#            tabPanel("Read Me",includeMarkdown("readme.md")))
-# )
-# 
-#           
-#         
-# 
-# 
-
 library(shiny)
 library(leaflet)
+library(shinythemes)
 
-fluidPage(theme = shinytheme("cerulean"),
+fluidPage(theme = shinytheme("cosmo"),
           navbarPage("Varanasi Analysis", id="main",
                      tabPanel("Dustbins near me", leafletOutput("bbmap", height=840)),
                      tabPanel("Locality Of Dustbins", DT::dataTableOutput("data")),
@@ -46,7 +10,7 @@ fluidPage(theme = shinytheme("cerulean"),
                        tags$h1("Interactive dashboard"),
                        h3("Press 1 or 2"),
                        h2("What type is your waste?"),
-                      
+                       
                        textInput("txt1", "\n1.Biodegradable \n2.Non Biodegradable", ""),
                        textInput("txt2", "Press 1 to know about composting. Press 2 to know about recycling", ""),
                      ), # sidebarPanel
