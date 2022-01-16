@@ -3,7 +3,7 @@
 To create a Varanasi Smart City Analysis.
 
 ## Data:
-From ......
+From .....
 
 
 
