@@ -149,7 +149,7 @@ You can try home or backyard composting.You can send your segregated biodegradab
 
 
   output$plotlandmarks <- renderPlot({
-    landmarks <- read.csv("C:/AICTE Project/GIS Project/Converted Files/Landmarks.csv", header = TRUE, sep = ",")
+    landmarks <- read.csv("C:/AICTE Project/Team Data Dive/Varanasi smart city analysis by team Data Dive/Landmarks.csv", header = TRUE, sep = ",")
     #View(landmarks)
     #Plot
     x<- table(landmarks$WRD_ID)
