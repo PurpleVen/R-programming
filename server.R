@@ -12,6 +12,9 @@ library(ggplot2)
 
 library(rgdal)
 
+library(rsconnect)
+#rsconnect::deployApp('https://datadive.shinyapps.io/VaranasismartcityanalysisbyteamDataDive2022/')
+
 shinyServer(function(input, output) {
   # Import Data and clean it
 
