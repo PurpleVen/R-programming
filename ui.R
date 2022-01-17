@@ -5,7 +5,7 @@ library(shinythemes)
 
 fluidPage(theme = shinytheme("cosmo"),
           navbarPage("Varanasi Analysis", id="main",
-                     tabPanel("Dustbins near me", leafletOutput("bbmap", height=840)),
+                     tabPanel("Dustbins Distribution", leafletOutput("bbmap", height=840)),
                      tabPanel("Locality Of Dustbins", DT::dataTableOutput("data")),
                      tabPanel("Guide",sidebarPanel(
                        tags$h1("Interactive dashboard"),
