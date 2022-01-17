@@ -3,17 +3,19 @@ library(shiny)
 library(leaflet)
 library(shinythemes)
 
+
+
 fluidPage(theme = shinytheme("cosmo"),
           navbarPage("Varanasi Analysis", id="main",
                      tabPanel("Dustbins Distribution", leafletOutput("bbmap", height=700)),
                      tabPanel("Locality Of Dustbins", DT::dataTableOutput("data")),
                      tabPanel("Guide",sidebarPanel(
                        tags$h1("Interactive dashboard"),
-                       h3("Press 1 or 2"),
+                       h3("Enter 1 or 2"),
                        h2("What type is your waste?"),
                        
                        textInput("txt1", "\n1.Biodegradable \n2.Non Biodegradable", ""),
-                       textInput("txt2", "Press 1 to know about composting. Press 2 to know about recycling", ""),
+                       textInput("txt2", "Enter 1 to know about composting. Enter 2 to know about recycling on the text field", ""),
                      ), # sidebarPanel
                      mainPanel(
                        h2("Your Waste Management Plan!"),
