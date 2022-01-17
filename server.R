@@ -21,7 +21,6 @@ shinyServer(function(input, output) {
   bb_data$LONGITUDE <-  as.numeric(bb_data$LONGITUDE)
   bb_data=filter(bb_data, LATITUDE != "NA") # removing NA values
 
-
   pal <- colorFactor(pal = c("Red", "Blue", "Green", "Yellow", "Orange"), domain = c("Bhelupur", "Dashaswamedh", "Varunapar", "Adampur", "Kotwali"))
 
   # create the leaflet map
@@ -35,15 +34,13 @@ shinyServer(function(input, output) {
                         color = ~pal(Zone),
                         stroke = FALSE, fillOpacity = 2.8)%>%
 
-      addLegend("bottomright", pal = pal, values=bb_data$Zone,opacity=1, na.label = "Not Available", title = "Dustbin Availability In Different Zones")%>%
+      addLegend("bottomright", pal = pal, values=bb_data$Zone,opacity=1, na.label = "Not Available", title = "Dustbins Distribution In Different Zones")%>%
       addEasyButton(easyButton(
         icon="fa-crosshairs", title="ME",
         onClick=JS("function(btn, map){ map.locate({setView: true}); }")))
         })
   
-      output$input_file <- renderLeaflet({
-
-      })
+    
 
 
   #create a data object to display data
