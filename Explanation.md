@@ -15,18 +15,21 @@
 
 
 
-#### → According to the data provided in the histograms alongside, we can notice that the number of dustbins and the number of landmarks for each ward in the city do have an appropriate match . 
+#### ??? According to the data provided in the histograms alongside, we can notice that the number of dustbins and the number of landmarks for each ward in the city do not have an appropriate match . 
 
-#### → Taking the ward W001 for example, we can observe that there are around 40 landmarks in the ward but the number of dustbins only amount to 10.
+#### ??? Taking the ward W001 for example, we can observe that there are around 40 landmarks in the ward but the number of dustbins only amount to 10.
 
-#### → We can observe the same scenario with ward W031 where the number of landmarks are more than 300 where dustbins for the same ward only amount to 30.
+#### ??? We can observe the same scenario with ward W031 where the number of landmarks are more than 300 where dustbins for the same ward only amount to 30.
 
-#### → This is the case with many other wards in the city as well. 
+#### ??? This is the case with many other wards in the city as well. 
 
-#### → Therefore we can conclude that, according to the dataset provided, the number of dustbins provided for each ward in correspondence with the number of landmarks is not ideal since landmarks need to be kept clean. 
+#### ??? According to the geo spatial dataset provided, _'Sarnath' ward has 0 dustbins_.
+
+#### ??? Therefore we can conclude that, according to the dataset provided, the number of dustbins provided for each ward in correspondence with the number of landmarks is not ideal since landmarks of Varanasi Smart City need to be kept clean. 
 
 
-#### __Implementation of new dustbins being in wards lacking them would be beneficial to the waste management system of Varanasi.__ 
+#### _Implementation of new dustbins being in wards lacking them would be beneficial to the waste management system of Varanasi Smart City._ 
 
 
 ======================================================================================================================================
+
