@@ -66,7 +66,7 @@ You can try home or backyard composting.You can send your segregated biodegradab
       if(input$txt1=="2")
         print("Recycling is the best way to dispose Non-Biodegradable waste.Recycle at home Send the waste to nearby recycling centres or facilities in your town. Segregate waste that can be recycled prior to the recycle pickup provided by the municipality.")
       else{
-        print("Please Enter 1 For Biodegradable Waste And 2 For Non-Biodegradable Waste!")
+        print("Please Enter 1 For Biodegradable Waste And 2 For Non-Biodegradable Waste On The Text Field")
       }
     }
   })
