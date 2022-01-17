@@ -15,7 +15,7 @@
 #### Hence when we create the shiny application we will ignore these points. I am in a process to update these points.
 
 ## Help:
-#### In case you observe the data projected on map is incorrect and you have more accurate or additional information that could be updated it will be great if you can email us (Team: Data Dive) and we will update the same.
+#### In case you observe the data projected on map to be inaccurate, and you have more accurate or additional information that could be updated, please reach out to us via email (Team: Data Dive) and we will update the same.
 
 >Email IDs:
 #### 320sekar0058@dbit.in
