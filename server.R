@@ -18,7 +18,7 @@ library(rsconnect)
 shinyServer(function(input, output) {
   # Import Data and clean it
 
-  bb_data <- read.csv("C:/AICTE Project/Team Data Dive/Varanasi smart city analysis by team Data Dive/Dustbin.csv", stringsAsFactors = FALSE )
+  bb_data <- read.csv("Dustbin.csv", stringsAsFactors = FALSE )
   bb_data <- data.frame(bb_data)
   bb_data$LATITUDE <-  as.numeric(bb_data$LATITUDE)
   bb_data$LONGITUDE <-  as.numeric(bb_data$LONGITUDE)
@@ -142,7 +142,7 @@ You can try home or backyard composting.You can send your segregated biodegradab
 
 
   output$plotdustbins <- renderPlot({
-    dustbins <- read.csv("C:/AICTE Project/Team Data Dive/Varanasi smart city analysis by team Data Dive/Dustbin.csv", header = TRUE, sep = ",")
+    dustbins <- read.csv("Dustbin.csv", header = TRUE, sep = ",")
     #View(dustbins)
     #Plot
     x<- table(dustbins$WARD_ID)
@@ -152,7 +152,7 @@ You can try home or backyard composting.You can send your segregated biodegradab
 
 
   output$plotlandmarks <- renderPlot({
-    landmarks <- read.csv("C:/AICTE Project/Team Data Dive/Varanasi smart city analysis by team Data Dive/Landmarks.csv", header = TRUE, sep = ",")
+    landmarks <- read.csv("Landmarks.csv", header = TRUE, sep = ",")
     #View(landmarks)
     #Plot
     x<- table(landmarks$WRD_ID)
