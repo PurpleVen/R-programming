@@ -1,16 +1,16 @@
 ## Comparison:
 
->Total No. Of Dustbins in Varanasi Smart City : 2069 dustbins
-#### >>The below graph shows the different types of dustbins available in Varanasi Smart City. There are about '1948' of a single dustbin and '121' twin bins.
+> Total No. Of Dustbins in Varanasi Smart City : 2069 dustbins
+#### >> The below graph shows the different types of dustbins available in Varanasi Smart City. There are about '1948' of a single dustbin and '121' twin bins.
 
-![Image alt text](C:/AICTE Project/Team Data Dive/Varanasi smart city analysis by team Data Dive/Different Dustbins in Varanasi Smart City.jpeg)
+![Image alt text](Different Dustbins in Varanasi Smart City.jpeg)
 
  
 
->Total No. Of Landmarks in Varanasi Smart City : 5271 landmarks
-#### >>The below pie chart shows the different landmarks and their presence in the smart city.
+> Total No. Of Landmarks in Varanasi Smart City : 5271 landmarks
+#### >> The below pie chart shows the different landmarks and their presence in the smart city.
 
-![Image alt text](C:/AICTE Project/Team Data Dive/Varanasi smart city analysis by team Data Dive/Different Landmarks in Varanasi Smart City.jpeg)
+![Image alt text](Different Landmarks in Varanasi Smart City.jpeg)
 
 
 
